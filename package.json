@@ -1,7 +1,7 @@
 {
   "name": "king-xd-v6",
-  "version": "1.0.0",
-  "description": "KING-XD v6 - WhatsApp Bot developed by KINGSLEY-XMD TECH",
+  "version": "6.0.0",
+  "description": "KING-XD v6 - A powerful WhatsApp bot by KINGSLEY-XMD TECH",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
@@ -9,19 +9,19 @@
   "author": "KINGSLEY-XMD TECH",
   "license": "MIT",
   "dependencies": {
-    "@whiskeysockets/baileys": "^6.7.5",
     "@hapi/boom": "^10.0.1",
-    "pino": "^8.14.1",
-    "express": "^4.18.2",
-    "body-parser": "^1.20.2",
-    "axios": "^1.6.0",
-    "cheerio": "^1.0.0-rc.12",
-    "moment-timezone": "^0.5.43",
-    "file-type": "^18.5.0",
-    "sharp": "^0.32.6",
-    "jimp": "^0.22.10",
+    "@whiskeysockets/baileys": "^6.7.0",
+    "express": "^4.19.2",
+    "pino": "^9.0.0",
+    "qrcode": "^1.5.3",
     "qrcode-terminal": "^0.12.0",
-    "fs-extra": "^11.1.1"
+    "jimp": "^0.22.10",
+    "axios": "^1.7.2",
+    "cheerio": "^1.0.0-rc.12",
+    "file-type": "^19.0.0",
+    "form-data": "^4.0.0",
+    "node-fetch": "^3.3.2",
+    "wa-sticker-formatter": "^4.3.2"
   },
   "engines": {
     "node": ">=18.0.0"
