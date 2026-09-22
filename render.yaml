@@ -1,0 +1,30 @@
+services:
+  - type: web
+    name: king-xd-v6
+    env: node
+    plan: free
+    buildCommand: npm install
+    startCommand: npm start
+    healthCheckPath: /
+    envVars:
+      - key: SESSION_ID
+        sync: false
+        description: "Paste your WhatsApp Session ID string here"
+      - key: OWNER_NUMBER
+        sync: false
+        description: "Your WhatsApp number in international format (e.g. 2348012345678)"
+      - key: OWNER_NAME
+        sync: false
+        value: "KINGSLEY-XMD TECH"
+      - key: BOT_NAME
+        sync: false
+        value: "KING-XD v6"
+      - key: PREFIX
+        sync: false
+        value: "."
+      - key: MODE
+        sync: false
+        value: "public"
+      - key: PORT
+        sync: false
+        value: "3000"
